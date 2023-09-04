@@ -71,10 +71,8 @@ def VaoTran():
        
         if location_trongtran is not None:
             print("dang trong tran", location_trongtran)
-            pyautogui.keyDown('b')
-            time.sleep(1)
-            pyautogui.keyUp('b')
-            time.sleep(0.1)  
+            pyautogui.press('b')
+            time.sleep(1)  
             continue
         if location_boqua is not None:
             print("da tim thay nut bo qua", location_boqua)
